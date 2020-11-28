@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/cos.jpg') center / cover;
+}
+.icon{
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+}
+.iconc img{
+    width: 150px;
+    margin: auto 0;
+}
+.iconc {
+    margin: auto 0;
+}
+.heder{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+}
+.heder h1{
+    color: yellow;
+    font-size: 55px;
+}
+.heder p{
+    color: white;
+}
+.heder button{
+    padding:  10px 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    width: 2px;
+    transition: 1s;
+    outline: 0;
+}
+.heder button:hover{
+   width: 20%;
+}
+.main1{
+    padding: 0 20px;
+    height: 300px;
+    background: url('../img/tower.jpg') center / cover;
+}
+.main-1{
+    margin-top: 80px;
+    padding: 0 20px;
+}
+.main2{
+    margin-top: 30px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.cart{
+    padding:0 50px;
+    display: flex;
+    margin-top: 30px;
+}
+.ca{
+    width: 400px;
+    height: 600px;
+    margin: 0 20px;
+    padding: 20px;
+}
+.cart1{
+    background: url('../img/1.jpg') center / cover;
+}
+.cart2{
+    background: url('../img/2.jpg') center / cover;
+}
+.cart3{
+    background: url('../img/3.png') center / cover;
+}
+.car{
+    color: white;
+}
+.car a{
+    margin: 20px 0;
+}
+.car a{
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+} 
+.car .psps{
+    color: blue;
+    border: none;
+}
+.car{
+    margin-top: 300px;
+    opacity: 0.0;
+}
+.ca:hover .car{
+    opacity: 0.9;
+}
+.ca:hover .h1bott{
+    opacity: 0.0;
+}
+.h1bott{
+    color: white;
+    margin-bottom: 20px;
+}
+.flexcrtu div{
+    width: 260px;
+    height: 200px;
+    margin-top: 20px;
+}
+.flexcrtu div img{
+    width: 100%;
+    height: 100%;
+}
+.flexcrtu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cartochka{
+    padding: 0 30px;
+    justify-content: center;
+}
+.cartochka h1{
+    font-size: 40px;
+    color: gray;
+}
+.video video{
+    max-width: 600px;
+    max-height: 650px;
+    margin-left:30px;
+    border: none;
+}
+.vidiotext{
+    width: 600px;
+    margin-top: 30px;
+}
+.vidiotext h1{
+    font-size: 35px;
+} 
+.vidiodiv{
+    display: flex;
+    padding: 0 50px;
+}
+.vidio{
+    margin-top: 50px;
+}
+footer{
+    background: url('../img/foot.jpg') center / cover;
+    text-align: center;
+    padding:  0 200px;
+    color: white;
+    height: 300px;
+
+}
+footer h1{
+    font-size: 35px;
+}
+footer i{
+    font-size: 35px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+@media screen and (max-width:800px){
+    .flexcrtu{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .cartochka{
+        width: 100%;
+        padding: 0;
+    }
+    .flexcrtu div{
+        width: 100%;
+        height: 400px;
+
+    }
+    .flexcrtu{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:1220px){
+    .vidiodiv{
+        flex-direction: column;
+    }
+    .video .vid{
+        margin: 0px 0px 0px 0px;
+        max-width: 560px;
+        justify-content: center;
+    }
+    .vidiotext{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .video {
+        width:100%;
+        text-align: center;
+    }
+    .cart .ca .car{
+        opacity:0.9;
+        margin: 0;
+    }
+    .h1bott{
+        opacity: 0.0;
+    }
+}
+@media screen  and (max-width:650px){
+    .video .vid{
+        max-width: 400px;
+        justify-content: center;
+    }
+    .heder{
+        width: 400px;
+    }
+}
+@media screen  and (max-width:750px){
+    .cart{
+        flex-direction: column;
+    }
+    .cart div{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen  and (max-width:550px){
+    footer{
+        padding: 0;
+    }
+    .video .vid{
+        margin: 0px 0px 0px 0px;
+        max-width: 350px;
+        justify-content: center;
+    }
+}
+@media screen  and (max-width:550px){
+    .video .vid{
+        margin: 0px 0px 0px 0px;
+        max-width: 250px;
+        justify-content: center;
+    }
+    .heder{
+        width: 250px;
+    }
+}
